@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS FILE  -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- FONT AWOSOME -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    
+    <title>AD JEWELLERY</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <div id="div-1">
+        <ul>
+          <li>
+            <a href="#"><i class="fas fa-2x fa-user-circle"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="far fa-2x fa-heart"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-2x fa-opencart"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="brand">
+        <h1><!-- <i class="fas fa-camera fa-1x"></i> -->AD JEWELLERY</h1>
+      </div>
+      <div class="center">
+        <div id="div-2">
+         
+          <ul>
+            <li><i class="fas fa-search"></i
+              ><input type="text" placeholder="search" id="search" /></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Collection</a></li>
+            <li><a href="#">Wedding Store</a></li>
+            <li><a href="#">Shop All</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="home">
+      <div id="container">
+        <div class="box-1">
+          <h1>TRY OUR AD JEWELLERY</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa culpa
+            quibusdam, quae iure eveniet atque facilis corporis enim provident
+            esse praesentium impedit cumque vel. Quo et recusandae molestias
+            ipsum, odio unde amet quis saepe numquam maxime obcaecati iure
+            fugiat eveniet.
+          </p>
+          <button class="btn">VIEW MORE</button>
+        </div>
+        <div class="box-2">
+          <img src="model.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <div class="nav-3">
+      <div class="s-b">
+        <i class="fas fa-3x fa-search"></i
+        ><input type="text" placeholder="SEARCH ITEMS" />
+      </div>
+      <div class="cat">
+        <div class="heading-1">
+          <h1>CATEGORIES</h1>
+        </div>
+      </div>
+    </div>
+    <section id="products">
+      <div class="cat-box">
+        <div class="c-1">
+          <div class="vertical-menu">
+            <a  class="active">CATEGORIES</a>
+            <a  onclick="filterSelection('all')">ALL</a>
+            <a  onclick="filterSelection('necklace')">NECKLACES</a>
+            <a  onclick="filterSelection('earing')">EARINGS</a>
+            <a  onclick="filterSelection('bracelet')">BRACELETS</a>
+            <a  onclick="filterSelection('ring')">RINGS</a>
+            <a  onclick="filterSelection('pendant')">PENDANT</a>
+          </div>
+        </div>
+
+        <div class="c-2">
+          <div class="vertical-menu">
+            <a href="#" class="active">TYPE</a>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+            <a href="#">Link 5</a>
+          </div>
+        </div>
+
+        <div class="c-3">
+          <div class="vertical-menu">
+            <a href="#" class="active">SIZE</a>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+            <a href="#">Link 5</a>
+          </div>
+        </div>
+        <div class="c-4">
+          <div class="vertical-menu">
+            <a href="#" class="active">PRICE</a>
+            <input type="range" id="vol" name="vol" min="min" max="max" />
+          </div>
+        </div>
+      </div>
+
+      <div class="product-box">
+        <div class="card-box">
+
+          <ul class="cards pro-items" >
+            <li>
+              <a href="" class="card ">
+                <img src="insta/p-1.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                  <div class="card__header">
+                    <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                      <path />
+                    </svg>
+                    <img class="card__thumb" src="insta/p-1.jpg" alt="" />
+                    <div class="card__header-text">
+                      <h3 class="card__title">NECKLACE</h3>
+                      <span class="card__status">...</span>
+                    </div>
+                  </div>
+                  <p class="card__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Asperiores, blanditiis?
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="cards pro-items" >
+            <li>
+              <a href="" class="card ">
+                <img src="insta/p-2.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                  <div class="card__header">
+                    <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                      <path />
+                    </svg>
+                    <img class="card__thumb" src="insta/p-1.jpg" alt="" />
+                    <div class="card__header-text">
+                      <h3 class="card__title">EARING</h3>
+                      <span class="card__status">...</span>
+                    </div>
+                  </div>
+                  <p class="card__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Asperiores, blanditiis?
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="cards pro-items" >
+            <li>
+              <a href="" class="card ">
+                <img src="insta/p-4.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                  <div class="card__header">
+                    <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                      <path />
+                    </svg>
+                    <img class="card__thumb" src="insta/p-1.jpg" alt="" />
+                    <div class="card__header-text">
+                      <h3 class="card__title">RING</h3>
+                      <span class="card__status">...</span>
+                    </div>
+                  </div>
+                  <p class="card__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Asperiores, blanditiis?
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        <!-- </div> -->
+
+        <!-- <div class="card-box-2"> -->
+          <ul class="cards pro-items " >
+            <li>
+              <a href="" class="card ">
+                <img src="insta/p-5.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                  <div class="card__header">
+                    <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                      <path />
+                    </svg>
+                    <img class="card__thumb" src="insta/p-1.jpg" alt="" />
+                    <div class="card__header-text">
+                      <h3 class="card__title">NECKLACE</h3>
+                      <span class="card__status">...</span>
+                    </div>
+                  </div>
+                  <p class="card__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Asperiores, blanditiis?
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="cards pro-items " >
+            <li>
+              <a href="" class="card">
+                <img src="insta/p-8.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                  <div class="card__header">
+                    <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                      <path />
+                    </svg>
+                    <img class="card__thumb" src="insta/p-1.jpg" alt="" />
+                    <div class="card__header-text">
+                      <h3 class="card__title">EARING</h3>
+                      <span class="card__status">...</span>
+                    </div>
+                  </div>
+                  <p class="card__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Asperiores, blanditiis?
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="cards pro-items  " >
+            <li>
+              <a href="" class="card">
+                <img src="insta/p-7.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                  <div class="card__header">
+                    <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                      <path />
+                    </svg>
+                    <img class="card__thumb" src="insta/p-1.jpg" alt="" />
+                    <div class="card__header-text">
+                      <h3 class="card__title">RING</h3>
+                      <span class="card__status">...</span>
+                    </div>
+                  </div>
+                  <p class="card__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Asperiores, blanditiis?
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        <!-- </div> -->
+
+        <!-- <div class="card-box-3"> -->
+          <ul class="cards pro-items" >
+            <li>
+              <a href="" class="card">
+                <img src="insta/p-8.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                  <div class="card__header">
+                    <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                      <path />
+                    </svg>
+                    <img class="card__thumb" src="insta/p-1.jpg" alt="" />
+                    <div class="card__header-text">
+                      <h3 class="card__title">NECKLACE</h3>
+                      <span class="card__status">...</span>
+                    </div>
+                  </div>
+                  <p class="card__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Asperiores, blanditiis?
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="cards pro-items" >
+            <li>
+              <a href="" class="card">
+                <img src="insta/p-1.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                  <div class="card__header">
+                    <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                      <path />
+                    </svg>
+                    <img class="card__thumb" src="insta/p-1.jpg" alt="" />
+                    <div class="card__header-text">
+                      <h3 class="card__title">EARING</h3>
+                      <span class="card__status">...</span>
+                    </div>
+                  </div>
+                  <p class="card__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Asperiores, blanditiis?
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="cards pro-items" >
+            <li>
+              <a href="" class="card">
+                <img src="insta/p-2.jpg" class="card__image" alt="" />
+                <div class="card__overlay">
+                  <div class="card__header">
+                    <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                      <path />
+                    </svg>
+                    <img class="card__thumb" src="insta/p-1.jpg" alt="" />
+                    <div class="card__header-text">
+                      <h3 class="card__title">RING</h3>
+                      <span class="card__status">...</span>
+                    </div>
+                  </div>
+                  <p class="card__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Asperiores, blanditiis?
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        <!-- </div> -->
+      </div>
+      </div>
+    </section>
+    <footer class="end">
+      <div class="f-1">
+        <ul>
+          <li>
+            <a href="#"><i class="fab fa-3x fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-3x fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-3x fa-whatsapp"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="f-2">
+        <span>© 2021 AD-JEWELLERY | All Rights Reserved</span>
+      </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+  </body>
+</html>
